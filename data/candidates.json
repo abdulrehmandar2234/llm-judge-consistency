@@ -1,0 +1,756 @@
+[
+  {
+    "id": "cand_00",
+    "name": "Alex Okafor",
+    "archetype": "career_changer",
+    "years_experience": 1,
+    "education": {
+      "degree": "BEng Electrical Engineering",
+      "institution": "Central Polytechnic"
+    },
+    "skills": [
+      "Kafka",
+      "Kubernetes",
+      "MLflow",
+      "PostgreSQL",
+      "PyTorch",
+      "TanStack Query",
+      "Vite",
+      "scikit-learn"
+    ],
+    "experience": [
+      {
+        "title": "Full Stack Engineer",
+        "company": "Orbit Education",
+        "years": 1,
+        "highlights": [
+          "Set up React end-to-end coverage, taking release regressions from weekly to rare",
+          "Drove Core Web Vitals into the green on 12 high-traffic pages with React",
+          "Cut initial bundle size 35% through code splitting and Redux route-level loading"
+        ]
+      }
+    ],
+    "resume_text": "Alex Okafor\n1 years of experience\nBEng Electrical Engineering, Central Polytechnic\n\nSkills: Kafka, Kubernetes, MLflow, PostgreSQL, PyTorch, TanStack Query, Vite, scikit-learn\n\nExperience:\n- Full Stack Engineer, Orbit Education (1 yr)\n    * Set up React end-to-end coverage, taking release regressions from weekly to rare\n    * Drove Core Web Vitals into the green on 12 high-traffic pages with React\n    * Cut initial bundle size 35% through code splitting and Redux route-level loading"
+  },
+  {
+    "id": "cand_01",
+    "name": "Bianca Lindqvist",
+    "archetype": "frontend_strong",
+    "years_experience": 8,
+    "education": {
+      "degree": "BSc Software Engineering",
+      "institution": "Northern Institute of Technology"
+    },
+    "skills": [
+      "GraphQL",
+      "Next.js",
+      "RabbitMQ",
+      "React",
+      "Tailwind CSS",
+      "TanStack Query",
+      "TypeScript",
+      "scikit-learn"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Harbour Analytics",
+        "years": 3,
+        "highlights": [
+          "Rebuilt the React component library used across 60 product surfaces",
+          "Cut initial bundle size 60% through code splitting and TypeScript route-level loading",
+          "Set up React end-to-end coverage, taking release regressions from weekly to rare"
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Harbour Analytics",
+        "years": 4,
+        "highlights": [
+          "Shipped a retrieval pipeline over 2k documents using PyTorch",
+          "Reduced inference cost 60% by batching and caching in the HuggingFace Transformers serving path"
+        ]
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Meridian Health",
+        "years": 1,
+        "highlights": [
+          "Fine-tuned a transformer classifier with spaCy, improving macro-F1 by 5 points",
+          "Owned model selection and the MLflow experiment tracking the team ran on",
+          "Built an evaluation harness in ONNX that caught 12 silent quality regressions"
+        ]
+      }
+    ],
+    "resume_text": "Bianca Lindqvist\n8 years of experience\nBSc Software Engineering, Northern Institute of Technology\n\nSkills: GraphQL, Next.js, RabbitMQ, React, Tailwind CSS, TanStack Query, TypeScript, scikit-learn\n\nExperience:\n- Backend Engineer, Harbour Analytics (3 yr)\n    * Rebuilt the React component library used across 60 product surfaces\n    * Cut initial bundle size 60% through code splitting and TypeScript route-level loading\n    * Set up React end-to-end coverage, taking release regressions from weekly to rare\n- Frontend Engineer, Harbour Analytics (4 yr)\n    * Shipped a retrieval pipeline over 2k documents using PyTorch\n    * Reduced inference cost 60% by batching and caching in the HuggingFace Transformers serving path\n- Machine Learning Engineer, Meridian Health (1 yr)\n    * Fine-tuned a transformer classifier with spaCy, improving macro-F1 by 5 points\n    * Owned model selection and the MLflow experiment tracking the team ran on\n    * Built an evaluation harness in ONNX that caught 12 silent quality regressions"
+  },
+  {
+    "id": "cand_02",
+    "name": "Chen Wei",
+    "archetype": "frontend_mid",
+    "years_experience": 2,
+    "education": {
+      "degree": "BEng Electrical Engineering",
+      "institution": "Central Polytechnic"
+    },
+    "skills": [
+      "Go",
+      "GraphQL",
+      "Next.js",
+      "Playwright",
+      "PostgreSQL",
+      "PyTorch",
+      "React",
+      "Tailwind CSS",
+      "TanStack Query"
+    ],
+    "experience": [
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Cobalt Retail Group",
+        "years": 2,
+        "highlights": [
+          "Owned state management for a 8-screen TypeScript application",
+          "Set up TypeScript end-to-end coverage, taking release regressions from weekly to rare",
+          "Brought the checkout flow to WCAG 2.1 AA using GraphQL and automated audits"
+        ]
+      }
+    ],
+    "resume_text": "Chen Wei\n2 years of experience\nBEng Electrical Engineering, Central Polytechnic\n\nSkills: Go, GraphQL, Next.js, Playwright, PostgreSQL, PyTorch, React, Tailwind CSS, TanStack Query\n\nExperience:\n- Machine Learning Engineer, Cobalt Retail Group (2 yr)\n    * Owned state management for a 8-screen TypeScript application\n    * Set up TypeScript end-to-end coverage, taking release regressions from weekly to rare\n    * Brought the checkout flow to WCAG 2.1 AA using GraphQL and automated audits"
+  },
+  {
+    "id": "cand_03",
+    "name": "Dara Mbeki",
+    "archetype": "ml_mid",
+    "years_experience": 4,
+    "education": {
+      "degree": "BSc Computer Science",
+      "institution": "State Technical University"
+    },
+    "skills": [
+      "Docker",
+      "MongoDB",
+      "Playwright",
+      "React",
+      "TensorFlow",
+      "pandas",
+      "scikit-learn",
+      "spaCy"
+    ],
+    "experience": [
+      {
+        "title": "Senior Software Engineer",
+        "company": "Meridian Health",
+        "years": 1,
+        "highlights": [
+          "Set up TypeScript end-to-end coverage, taking release regressions from weekly to rare",
+          "Owned state management for a 2-screen TypeScript application",
+          "Brought the checkout flow to WCAG 2.1 AA using Next.js and automated audits"
+        ]
+      },
+      {
+        "title": "Full Stack Engineer",
+        "company": "Harbour Analytics",
+        "years": 3,
+        "highlights": [
+          "Reduced inference cost 60% by batching and caching in the pandas serving path",
+          "Shipped a retrieval pipeline over 2k documents using HuggingFace Transformers"
+        ]
+      }
+    ],
+    "resume_text": "Dara Mbeki\n4 years of experience\nBSc Computer Science, State Technical University\n\nSkills: Docker, MongoDB, Playwright, React, TensorFlow, pandas, scikit-learn, spaCy\n\nExperience:\n- Senior Software Engineer, Meridian Health (1 yr)\n    * Set up TypeScript end-to-end coverage, taking release regressions from weekly to rare\n    * Owned state management for a 2-screen TypeScript application\n    * Brought the checkout flow to WCAG 2.1 AA using Next.js and automated audits\n- Full Stack Engineer, Harbour Analytics (3 yr)\n    * Reduced inference cost 60% by batching and caching in the pandas serving path\n    * Shipped a retrieval pipeline over 2k documents using HuggingFace Transformers"
+  },
+  {
+    "id": "cand_04",
+    "name": "Elif Demir",
+    "archetype": "backend_strong",
+    "years_experience": 9,
+    "education": {
+      "degree": "BSc Software Engineering",
+      "institution": "Northern Institute of Technology"
+    },
+    "skills": [
+      "Kubernetes",
+      "MongoDB",
+      "PostgreSQL",
+      "Python",
+      "RabbitMQ",
+      "TanStack Query",
+      "TypeScript",
+      "Weights & Biases"
+    ],
+    "experience": [
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Vantage Media",
+        "years": 7,
+        "highlights": [
+          "Introduced Kafka to decouple write paths from downstream consumers",
+          "Owned on-call for a 3-service platform; wrote the runbooks the team still uses",
+          "Cut p99 latency by 5% by introducing Kubernetes caching on the read path"
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Orbit Education",
+        "years": 1,
+        "highlights": [
+          "Set up Vite end-to-end coverage, taking release regressions from weekly to rare",
+          "Brought the checkout flow to WCAG 2.1 AA using Tailwind CSS and automated audits",
+          "Rebuilt the Redux component library used across 60 product surfaces"
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Meridian Health",
+        "years": 1,
+        "highlights": [
+          "Modelled and migrated a 2-table schema with zero-downtime backfills",
+          "Designed and shipped a Terraform-backed service handling 3k requests per day"
+        ]
+      }
+    ],
+    "resume_text": "Elif Demir\n9 years of experience\nBSc Software Engineering, Northern Institute of Technology\n\nSkills: Kubernetes, MongoDB, PostgreSQL, Python, RabbitMQ, TanStack Query, TypeScript, Weights & Biases\n\nExperience:\n- Machine Learning Engineer, Vantage Media (7 yr)\n    * Introduced Kafka to decouple write paths from downstream consumers\n    * Owned on-call for a 3-service platform; wrote the runbooks the team still uses\n    * Cut p99 latency by 5% by introducing Kubernetes caching on the read path\n- Frontend Engineer, Orbit Education (1 yr)\n    * Set up Vite end-to-end coverage, taking release regressions from weekly to rare\n    * Brought the checkout flow to WCAG 2.1 AA using Tailwind CSS and automated audits\n    * Rebuilt the Redux component library used across 60 product surfaces\n- Software Engineer, Meridian Health (1 yr)\n    * Modelled and migrated a 2-table schema with zero-downtime backfills\n    * Designed and shipped a Terraform-backed service handling 3k requests per day"
+  },
+  {
+    "id": "cand_05",
+    "name": "Farid Rahimi",
+    "archetype": "backend_mid",
+    "years_experience": 6,
+    "education": {
+      "degree": "BSc Software Engineering",
+      "institution": "Northern Institute of Technology"
+    },
+    "skills": [
+      "Docker",
+      "Go",
+      "HuggingFace Transformers",
+      "Kubernetes",
+      "RabbitMQ",
+      "Tailwind CSS",
+      "Terraform",
+      "gRPC"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Quill Financial",
+        "years": 1,
+        "highlights": [
+          "Owned model selection and the spaCy experiment tracking the team ran on",
+          "Shipped a retrieval pipeline over 20k documents using FAISS"
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Northwind Systems",
+        "years": 5,
+        "highlights": [
+          "Set up Redux end-to-end coverage, taking release regressions from weekly to rare",
+          "Rebuilt the Vite component library used across 3 product surfaces",
+          "Brought the checkout flow to WCAG 2.1 AA using Vite and automated audits"
+        ]
+      }
+    ],
+    "resume_text": "Farid Rahimi\n6 years of experience\nBSc Software Engineering, Northern Institute of Technology\n\nSkills: Docker, Go, HuggingFace Transformers, Kubernetes, RabbitMQ, Tailwind CSS, Terraform, gRPC\n\nExperience:\n- Frontend Engineer, Quill Financial (1 yr)\n    * Owned model selection and the spaCy experiment tracking the team ran on\n    * Shipped a retrieval pipeline over 20k documents using FAISS\n- Senior Software Engineer, Northwind Systems (5 yr)\n    * Set up Redux end-to-end coverage, taking release regressions from weekly to rare\n    * Rebuilt the Vite component library used across 3 product surfaces\n    * Brought the checkout flow to WCAG 2.1 AA using Vite and automated audits"
+  },
+  {
+    "id": "cand_06",
+    "name": "Gita Sharma",
+    "archetype": "career_changer",
+    "years_experience": 2,
+    "education": {
+      "degree": "BSc Software Engineering",
+      "institution": "Northern Institute of Technology"
+    },
+    "skills": [
+      "GraphQL",
+      "HuggingFace Transformers",
+      "RabbitMQ",
+      "Redis",
+      "Redux",
+      "TensorFlow",
+      "TypeScript",
+      "Weights & Biases"
+    ],
+    "experience": [
+      {
+        "title": "Full Stack Engineer",
+        "company": "Cobalt Retail Group",
+        "years": 2,
+        "highlights": [
+          "Cut initial bundle size 20% through code splitting and Redux route-level loading",
+          "Owned state management for a 3-screen Next.js application"
+        ]
+      }
+    ],
+    "resume_text": "Gita Sharma\n2 years of experience\nBSc Software Engineering, Northern Institute of Technology\n\nSkills: GraphQL, HuggingFace Transformers, RabbitMQ, Redis, Redux, TensorFlow, TypeScript, Weights & Biases\n\nExperience:\n- Full Stack Engineer, Cobalt Retail Group (2 yr)\n    * Cut initial bundle size 20% through code splitting and Redux route-level loading\n    * Owned state management for a 3-screen Next.js application"
+  },
+  {
+    "id": "cand_07",
+    "name": "Hassan Karim",
+    "archetype": "ml_mid",
+    "years_experience": 3,
+    "education": {
+      "degree": "BEng Electrical Engineering",
+      "institution": "Central Polytechnic"
+    },
+    "skills": [
+      "HuggingFace Transformers",
+      "PyTorch",
+      "Python",
+      "React",
+      "TanStack Query",
+      "TensorFlow",
+      "gRPC",
+      "scikit-learn"
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "Northwind Systems",
+        "years": 2,
+        "highlights": [
+          "Introduced PostgreSQL to decouple write paths from downstream consumers",
+          "Owned on-call for a 20-service platform; wrote the runbooks the team still uses",
+          "Modelled and migrated a 35-table schema with zero-downtime backfills"
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Quill Financial",
+        "years": 1,
+        "highlights": [
+          "Shipped a retrieval pipeline over 12k documents using PyTorch",
+          "Built an evaluation harness in FAISS that caught 2 silent quality regressions",
+          "Owned model selection and the scikit-learn experiment tracking the team ran on"
+        ]
+      }
+    ],
+    "resume_text": "Hassan Karim\n3 years of experience\nBEng Electrical Engineering, Central Polytechnic\n\nSkills: HuggingFace Transformers, PyTorch, Python, React, TanStack Query, TensorFlow, gRPC, scikit-learn\n\nExperience:\n- Software Engineer, Northwind Systems (2 yr)\n    * Introduced PostgreSQL to decouple write paths from downstream consumers\n    * Owned on-call for a 20-service platform; wrote the runbooks the team still uses\n    * Modelled and migrated a 35-table schema with zero-downtime backfills\n- Senior Software Engineer, Quill Financial (1 yr)\n    * Shipped a retrieval pipeline over 12k documents using PyTorch\n    * Built an evaluation harness in FAISS that caught 2 silent quality regressions\n    * Owned model selection and the scikit-learn experiment tracking the team ran on"
+  },
+  {
+    "id": "cand_08",
+    "name": "Iris Novak",
+    "archetype": "frontend_mid",
+    "years_experience": 4,
+    "education": {
+      "degree": "MSc Data Science",
+      "institution": "Coastal University"
+    },
+    "skills": [
+      "FAISS",
+      "Go",
+      "Next.js",
+      "Playwright",
+      "PostgreSQL",
+      "Redux",
+      "Storybook",
+      "TanStack Query",
+      "TypeScript"
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "Meridian Health",
+        "years": 1,
+        "highlights": [
+          "Cut initial bundle size 3% through code splitting and React route-level loading",
+          "Brought the checkout flow to WCAG 2.1 AA using Storybook and automated audits"
+        ]
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Harbour Analytics",
+        "years": 3,
+        "highlights": [
+          "Drove Core Web Vitals into the green on 2 high-traffic pages with GraphQL",
+          "Cut initial bundle size 20% through code splitting and Redux route-level loading",
+          "Brought the checkout flow to WCAG 2.1 AA using Playwright and automated audits"
+        ]
+      }
+    ],
+    "resume_text": "Iris Novak\n4 years of experience\nMSc Data Science, Coastal University\n\nSkills: FAISS, Go, Next.js, Playwright, PostgreSQL, Redux, Storybook, TanStack Query, TypeScript\n\nExperience:\n- Software Engineer, Meridian Health (1 yr)\n    * Cut initial bundle size 3% through code splitting and React route-level loading\n    * Brought the checkout flow to WCAG 2.1 AA using Storybook and automated audits\n- Machine Learning Engineer, Harbour Analytics (3 yr)\n    * Drove Core Web Vitals into the green on 2 high-traffic pages with GraphQL\n    * Cut initial bundle size 20% through code splitting and Redux route-level loading\n    * Brought the checkout flow to WCAG 2.1 AA using Playwright and automated audits"
+  },
+  {
+    "id": "cand_09",
+    "name": "Jonas Berger",
+    "archetype": "generalist",
+    "years_experience": 5,
+    "education": {
+      "degree": "BEng Electrical Engineering",
+      "institution": "Central Polytechnic"
+    },
+    "skills": [
+      "Go",
+      "HuggingFace Transformers",
+      "ONNX",
+      "Playwright",
+      "RabbitMQ",
+      "Redux",
+      "Terraform"
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "Vantage Media",
+        "years": 1,
+        "highlights": [
+          "Owned state management for a 3-screen Vite application",
+          "Drove Core Web Vitals into the green on 5 high-traffic pages with Playwright",
+          "Brought the checkout flow to WCAG 2.1 AA using GraphQL and automated audits"
+        ]
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Vantage Media",
+        "years": 4,
+        "highlights": [
+          "Shipped a retrieval pipeline over 2k documents using scikit-learn",
+          "Reduced inference cost 3% by batching and caching in the ONNX serving path",
+          "Fine-tuned a transformer classifier with PyTorch, improving macro-F1 by 3 points"
+        ]
+      }
+    ],
+    "resume_text": "Jonas Berger\n5 years of experience\nBEng Electrical Engineering, Central Polytechnic\n\nSkills: Go, HuggingFace Transformers, ONNX, Playwright, RabbitMQ, Redux, Terraform\n\nExperience:\n- Software Engineer, Vantage Media (1 yr)\n    * Owned state management for a 3-screen Vite application\n    * Drove Core Web Vitals into the green on 5 high-traffic pages with Playwright\n    * Brought the checkout flow to WCAG 2.1 AA using GraphQL and automated audits\n- Backend Engineer, Vantage Media (4 yr)\n    * Shipped a retrieval pipeline over 2k documents using scikit-learn\n    * Reduced inference cost 3% by batching and caching in the ONNX serving path\n    * Fine-tuned a transformer classifier with PyTorch, improving macro-F1 by 3 points"
+  },
+  {
+    "id": "cand_10",
+    "name": "Kiran Patel",
+    "archetype": "ml_strong",
+    "years_experience": 7,
+    "education": {
+      "degree": "MSc Data Science",
+      "institution": "Coastal University"
+    },
+    "skills": [
+      "FAISS",
+      "Kubernetes",
+      "MLflow",
+      "ONNX",
+      "Redux",
+      "TypeScript",
+      "pandas",
+      "scikit-learn",
+      "spaCy"
+    ],
+    "experience": [
+      {
+        "title": "Senior Software Engineer",
+        "company": "Northwind Systems",
+        "years": 6,
+        "highlights": [
+          "Introduced Kubernetes to decouple write paths from downstream consumers",
+          "Owned on-call for a 3-service platform; wrote the runbooks the team still uses",
+          "Modelled and migrated a 5-table schema with zero-downtime backfills"
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Quill Financial",
+        "years": 1,
+        "highlights": [
+          "Reduced inference cost 5% by batching and caching in the MLflow serving path",
+          "Shipped a retrieval pipeline over 3k documents using Weights & Biases",
+          "Owned model selection and the spaCy experiment tracking the team ran on"
+        ]
+      }
+    ],
+    "resume_text": "Kiran Patel\n7 years of experience\nMSc Data Science, Coastal University\n\nSkills: FAISS, Kubernetes, MLflow, ONNX, Redux, TypeScript, pandas, scikit-learn, spaCy\n\nExperience:\n- Senior Software Engineer, Northwind Systems (6 yr)\n    * Introduced Kubernetes to decouple write paths from downstream consumers\n    * Owned on-call for a 3-service platform; wrote the runbooks the team still uses\n    * Modelled and migrated a 5-table schema with zero-downtime backfills\n- Frontend Engineer, Quill Financial (1 yr)\n    * Reduced inference cost 5% by batching and caching in the MLflow serving path\n    * Shipped a retrieval pipeline over 3k documents using Weights & Biases\n    * Owned model selection and the spaCy experiment tracking the team ran on"
+  },
+  {
+    "id": "cand_11",
+    "name": "Lena Costa",
+    "archetype": "ml_strong",
+    "years_experience": 8,
+    "education": {
+      "degree": "MSc Data Science",
+      "institution": "Coastal University"
+    },
+    "skills": [
+      "Docker",
+      "FAISS",
+      "GraphQL",
+      "MLflow",
+      "MongoDB",
+      "TensorFlow",
+      "Weights & Biases",
+      "pandas",
+      "scikit-learn"
+    ],
+    "experience": [
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Parallax Labs",
+        "years": 6,
+        "highlights": [
+          "Reduced inference cost 2% by batching and caching in the HuggingFace Transformers serving path",
+          "Owned model selection and the TensorFlow experiment tracking the team ran on",
+          "Shipped a retrieval pipeline over 12k documents using ONNX"
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Quill Financial",
+        "years": 1,
+        "highlights": [
+          "Reduced inference cost 3% by batching and caching in the MLflow serving path",
+          "Owned model selection and the PyTorch experiment tracking the team ran on"
+        ]
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Quill Financial",
+        "years": 1,
+        "highlights": [
+          "Cut p99 latency by 3% by introducing Kafka caching on the read path",
+          "Designed and shipped a Docker-backed service handling 8k requests per day"
+        ]
+      }
+    ],
+    "resume_text": "Lena Costa\n8 years of experience\nMSc Data Science, Coastal University\n\nSkills: Docker, FAISS, GraphQL, MLflow, MongoDB, TensorFlow, Weights & Biases, pandas, scikit-learn\n\nExperience:\n- Machine Learning Engineer, Parallax Labs (6 yr)\n    * Reduced inference cost 2% by batching and caching in the HuggingFace Transformers serving path\n    * Owned model selection and the TensorFlow experiment tracking the team ran on\n    * Shipped a retrieval pipeline over 12k documents using ONNX\n- Frontend Engineer, Quill Financial (1 yr)\n    * Reduced inference cost 3% by batching and caching in the MLflow serving path\n    * Owned model selection and the PyTorch experiment tracking the team ran on\n- Machine Learning Engineer, Quill Financial (1 yr)\n    * Cut p99 latency by 3% by introducing Kafka caching on the read path\n    * Designed and shipped a Docker-backed service handling 8k requests per day"
+  },
+  {
+    "id": "cand_12",
+    "name": "Mateo Alvarez",
+    "archetype": "backend_strong",
+    "years_experience": 6,
+    "education": {
+      "degree": "MSc Data Science",
+      "institution": "Coastal University"
+    },
+    "skills": [
+      "Docker",
+      "Go",
+      "Kubernetes",
+      "Redis",
+      "Storybook",
+      "TypeScript",
+      "gRPC",
+      "scikit-learn"
+    ],
+    "experience": [
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Quill Financial",
+        "years": 3,
+        "highlights": [
+          "Shipped a retrieval pipeline over 35k documents using ONNX",
+          "Ran offline/online agreement analysis on 60 labelled examples with pandas"
+        ]
+      },
+      {
+        "title": "Full Stack Engineer",
+        "company": "Vantage Media",
+        "years": 3,
+        "highlights": [
+          "Owned on-call for a 12-service platform; wrote the runbooks the team still uses",
+          "Designed and shipped a Go-backed service handling 3k requests per day",
+          "Cut p99 latency by 3% by introducing RabbitMQ caching on the read path"
+        ]
+      }
+    ],
+    "resume_text": "Mateo Alvarez\n6 years of experience\nMSc Data Science, Coastal University\n\nSkills: Docker, Go, Kubernetes, Redis, Storybook, TypeScript, gRPC, scikit-learn\n\nExperience:\n- Machine Learning Engineer, Quill Financial (3 yr)\n    * Shipped a retrieval pipeline over 35k documents using ONNX\n    * Ran offline/online agreement analysis on 60 labelled examples with pandas\n- Full Stack Engineer, Vantage Media (3 yr)\n    * Owned on-call for a 12-service platform; wrote the runbooks the team still uses\n    * Designed and shipped a Go-backed service handling 3k requests per day\n    * Cut p99 latency by 3% by introducing RabbitMQ caching on the read path"
+  },
+  {
+    "id": "cand_13",
+    "name": "Nadia Haddad",
+    "archetype": "frontend_strong",
+    "years_experience": 6,
+    "education": {
+      "degree": "BSc Computer Science",
+      "institution": "State Technical University"
+    },
+    "skills": [
+      "GraphQL",
+      "Kafka",
+      "Playwright",
+      "React",
+      "Redux",
+      "TypeScript",
+      "Vite",
+      "pandas"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Talos Logistics",
+        "years": 2,
+        "highlights": [
+          "Owned on-call for a 2-service platform; wrote the runbooks the team still uses",
+          "Designed and shipped a Docker-backed service handling 2k requests per day",
+          "Led the migration of 20 legacy endpoints onto a versioned MongoDB API"
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Vantage Media",
+        "years": 4,
+        "highlights": [
+          "Brought the checkout flow to WCAG 2.1 AA using Storybook and automated audits",
+          "Cut initial bundle size 2% through code splitting and TanStack Query route-level loading",
+          "Rebuilt the GraphQL component library used across 12 product surfaces"
+        ]
+      }
+    ],
+    "resume_text": "Nadia Haddad\n6 years of experience\nBSc Computer Science, State Technical University\n\nSkills: GraphQL, Kafka, Playwright, React, Redux, TypeScript, Vite, pandas\n\nExperience:\n- Frontend Engineer, Talos Logistics (2 yr)\n    * Owned on-call for a 2-service platform; wrote the runbooks the team still uses\n    * Designed and shipped a Docker-backed service handling 2k requests per day\n    * Led the migration of 20 legacy endpoints onto a versioned MongoDB API\n- Senior Software Engineer, Vantage Media (4 yr)\n    * Brought the checkout flow to WCAG 2.1 AA using Storybook and automated audits\n    * Cut initial bundle size 2% through code splitting and TanStack Query route-level loading\n    * Rebuilt the GraphQL component library used across 12 product surfaces"
+  },
+  {
+    "id": "cand_14",
+    "name": "Omar Siddiqui",
+    "archetype": "junior_generalist",
+    "years_experience": 3,
+    "education": {
+      "degree": "BEng Electrical Engineering",
+      "institution": "Central Polytechnic"
+    },
+    "skills": [
+      "Docker",
+      "GraphQL",
+      "MLflow",
+      "PyTorch",
+      "RabbitMQ",
+      "React",
+      "Terraform"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Engineer",
+        "company": "Vantage Media",
+        "years": 1,
+        "highlights": [
+          "Reduced inference cost 20% by batching and caching in the pandas serving path",
+          "Built an evaluation harness in scikit-learn that caught 35 silent quality regressions"
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Parallax Labs",
+        "years": 2,
+        "highlights": [
+          "Led the migration of 35 legacy endpoints onto a versioned RabbitMQ API",
+          "Designed and shipped a Kubernetes-backed service handling 60k requests per day",
+          "Introduced Python to decouple write paths from downstream consumers"
+        ]
+      }
+    ],
+    "resume_text": "Omar Siddiqui\n3 years of experience\nBEng Electrical Engineering, Central Polytechnic\n\nSkills: Docker, GraphQL, MLflow, PyTorch, RabbitMQ, React, Terraform\n\nExperience:\n- Frontend Engineer, Vantage Media (1 yr)\n    * Reduced inference cost 20% by batching and caching in the pandas serving path\n    * Built an evaluation harness in scikit-learn that caught 35 silent quality regressions\n- Senior Software Engineer, Parallax Labs (2 yr)\n    * Led the migration of 35 legacy endpoints onto a versioned RabbitMQ API\n    * Designed and shipped a Kubernetes-backed service handling 60k requests per day\n    * Introduced Python to decouple write paths from downstream consumers"
+  },
+  {
+    "id": "cand_15",
+    "name": "Priya Nair",
+    "archetype": "generalist",
+    "years_experience": 4,
+    "education": {
+      "degree": "BSc Software Engineering",
+      "institution": "Northern Institute of Technology"
+    },
+    "skills": [
+      "Kafka",
+      "MongoDB",
+      "Playwright",
+      "PyTorch",
+      "TypeScript",
+      "gRPC",
+      "scikit-learn"
+    ],
+    "experience": [
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Vantage Media",
+        "years": 1,
+        "highlights": [
+          "Cut p99 latency by 12% by introducing Redis caching on the read path",
+          "Led the migration of 2 legacy endpoints onto a versioned Terraform API",
+          "Designed and shipped a Kafka-backed service handling 20k requests per day"
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Quill Financial",
+        "years": 3,
+        "highlights": [
+          "Ran offline/online agreement analysis on 2 labelled examples with ONNX",
+          "Fine-tuned a transformer classifier with MLflow, improving macro-F1 by 20 points",
+          "Built an evaluation harness in HuggingFace Transformers that caught 35 silent quality regressions"
+        ]
+      }
+    ],
+    "resume_text": "Priya Nair\n4 years of experience\nBSc Software Engineering, Northern Institute of Technology\n\nSkills: Kafka, MongoDB, Playwright, PyTorch, TypeScript, gRPC, scikit-learn\n\nExperience:\n- Machine Learning Engineer, Vantage Media (1 yr)\n    * Cut p99 latency by 12% by introducing Redis caching on the read path\n    * Led the migration of 2 legacy endpoints onto a versioned Terraform API\n    * Designed and shipped a Kafka-backed service handling 20k requests per day\n- Senior Software Engineer, Quill Financial (3 yr)\n    * Ran offline/online agreement analysis on 2 labelled examples with ONNX\n    * Fine-tuned a transformer classifier with MLflow, improving macro-F1 by 20 points\n    * Built an evaluation harness in HuggingFace Transformers that caught 35 silent quality regressions"
+  },
+  {
+    "id": "cand_16",
+    "name": "Rafa Moreau",
+    "archetype": "backend_mid",
+    "years_experience": 4,
+    "education": {
+      "degree": "MSc Computer Science",
+      "institution": "University of the Midlands"
+    },
+    "skills": [
+      "Docker",
+      "Go",
+      "GraphQL",
+      "Kafka",
+      "MongoDB",
+      "Python",
+      "Redis",
+      "Weights & Biases"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Quill Financial",
+        "years": 1,
+        "highlights": [
+          "Introduced Go to decouple write paths from downstream consumers",
+          "Owned on-call for a 2-service platform; wrote the runbooks the team still uses",
+          "Designed and shipped a gRPC-backed service handling 35k requests per day"
+        ]
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Vantage Media",
+        "years": 3,
+        "highlights": [
+          "Led the migration of 5 legacy endpoints onto a versioned MongoDB API",
+          "Modelled and migrated a 5-table schema with zero-downtime backfills",
+          "Designed and shipped a gRPC-backed service handling 60k requests per day"
+        ]
+      }
+    ],
+    "resume_text": "Rafa Moreau\n4 years of experience\nMSc Computer Science, University of the Midlands\n\nSkills: Docker, Go, GraphQL, Kafka, MongoDB, Python, Redis, Weights & Biases\n\nExperience:\n- Backend Engineer, Quill Financial (1 yr)\n    * Introduced Go to decouple write paths from downstream consumers\n    * Owned on-call for a 2-service platform; wrote the runbooks the team still uses\n    * Designed and shipped a gRPC-backed service handling 35k requests per day\n- Machine Learning Engineer, Vantage Media (3 yr)\n    * Led the migration of 5 legacy endpoints onto a versioned MongoDB API\n    * Modelled and migrated a 5-table schema with zero-downtime backfills\n    * Designed and shipped a gRPC-backed service handling 60k requests per day"
+  },
+  {
+    "id": "cand_17",
+    "name": "Sofia Ferreira",
+    "archetype": "junior_generalist",
+    "years_experience": 1,
+    "education": {
+      "degree": "MSc Data Science",
+      "institution": "Coastal University"
+    },
+    "skills": [
+      "GraphQL",
+      "PostgreSQL",
+      "RabbitMQ",
+      "TanStack Query",
+      "TensorFlow",
+      "Terraform",
+      "pandas"
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "Northwind Systems",
+        "years": 1,
+        "highlights": [
+          "Owned on-call for a 35-service platform; wrote the runbooks the team still uses",
+          "Led the migration of 5 legacy endpoints onto a versioned MongoDB API",
+          "Introduced PostgreSQL to decouple write paths from downstream consumers"
+        ]
+      }
+    ],
+    "resume_text": "Sofia Ferreira\n1 years of experience\nMSc Data Science, Coastal University\n\nSkills: GraphQL, PostgreSQL, RabbitMQ, TanStack Query, TensorFlow, Terraform, pandas\n\nExperience:\n- Software Engineer, Northwind Systems (1 yr)\n    * Owned on-call for a 35-service platform; wrote the runbooks the team still uses\n    * Led the migration of 5 legacy endpoints onto a versioned MongoDB API\n    * Introduced PostgreSQL to decouple write paths from downstream consumers"
+  }
+]

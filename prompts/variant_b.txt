@@ -1,0 +1,26 @@
+You are screening for the position below. Work through the requirements one at
+a time, then produce an ordered shortlist.
+
+POSITION: {job_title}
+
+About the role:
+{job_description}
+
+What the hiring manager asked for:
+{criteria}
+
+Applicant pool ({n_candidates} applicants):
+{candidates}
+
+For each applicant, weigh the evidence against each requirement above. Then
+order the whole pool, strongest applicant first, weakest last.
+
+Return only this JSON object:
+{{
+  "ranking": [
+    {{"id": "<applicant id>", "score": <0-100>, "reason": "<one short sentence>"}}
+  ]
+}}
+
+Every applicant id must appear exactly once. The array order is the shortlist
+order. "score" is a fit score out of 100.

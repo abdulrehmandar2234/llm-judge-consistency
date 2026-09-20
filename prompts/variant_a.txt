@@ -1,0 +1,25 @@
+Rank the candidates below for this role.
+
+ROLE: {job_title}
+
+{job_description}
+
+REQUIREMENTS:
+{criteria}
+
+CANDIDATES:
+{candidates}
+
+Rank all {n_candidates} candidates from best fit to worst fit.
+
+Reply with exactly this JSON object:
+{{
+  "ranking": [
+    {{"id": "<candidate id>", "score": <0-100>, "reason": "<one short sentence>"}}
+  ]
+}}
+
+Rules:
+- "ranking" must contain every candidate id exactly once, best first.
+- "score" is your fit score out of 100. Ties in score are allowed, but the
+  array order is still your ranking.

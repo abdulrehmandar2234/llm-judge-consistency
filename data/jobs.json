@@ -1,0 +1,38 @@
+[
+  {
+    "id": "job_backend",
+    "title": "Senior Backend Engineer",
+    "description": "We are hiring a Senior Backend Engineer to own our core API platform. You will design and operate distributed services handling millions of requests per day, lead schema and migration decisions, and mentor mid-level engineers.",
+    "criteria": [
+      "5+ years building production backend services",
+      "Strong Python or TypeScript; designs APIs others can use",
+      "Distributed systems: queues, caching, eventual consistency",
+      "Relational and document database modelling, including migrations",
+      "Production ownership: on-call, observability, incident response"
+    ]
+  },
+  {
+    "id": "job_ml",
+    "title": "Machine Learning Engineer (NLP)",
+    "description": "We are hiring an ML Engineer to build and evaluate NLP systems in production. You will own model selection, evaluation harnesses, and the inference path that serves them.",
+    "criteria": [
+      "3+ years applied ML, with work that reached production",
+      "NLP or LLM systems: fine-tuning, prompting, retrieval, or evaluation",
+      "PyTorch or TensorFlow, plus the HuggingFace ecosystem",
+      "Designs offline evaluation that predicts online behaviour",
+      "Comfortable with inference cost and latency trade-offs"
+    ]
+  },
+  {
+    "id": "job_frontend",
+    "title": "Frontend Engineer",
+    "description": "We are hiring a Frontend Engineer to build the customer-facing web application. You will own component architecture, performance, and accessibility across the product surface.",
+    "criteria": [
+      "3+ years with React and TypeScript",
+      "State management and component architecture at scale",
+      "Web performance: bundle size, rendering, Core Web Vitals",
+      "Accessibility (WCAG) as a default, not an afterthought",
+      "Works fluently against REST or GraphQL APIs"
+    ]
+  }
+]
