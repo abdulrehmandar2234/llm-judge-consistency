@@ -1,0 +1,470 @@
+{
+  "model": "SIMULATED-no-model-was-called",
+  "n_candidates": 18,
+  "n_runs_recorded": 60,
+  "n_runs_usable": 60,
+  "n_runs_excluded": 0,
+  "excluded_reasons": [],
+  "comparisons": {
+    "A. Repeated identical runs": {
+      "conditions": [
+        "base"
+      ],
+      "note": "control: prompt A, temperature 0, fixed candidate order",
+      "pooled": {
+        "kendall_tau": {
+          "mean": 0.9450980392156864,
+          "min": 0.9215686274509804,
+          "max": 0.9738562091503269,
+          "n_pairs": 30
+        },
+        "spearman_rho": {
+          "mean": 0.9896800825593395,
+          "min": 0.981424148606811,
+          "max": 0.9958720330237358,
+          "n_pairs": 30
+        },
+        "top5_overlap": {
+          "mean": 0.8933333333333333,
+          "min": 0.8,
+          "max": 1.0,
+          "n_pairs": 30
+        }
+      },
+      "per_job": {
+        "job_backend": {
+          "kendall_tau": {
+            "mean": 0.9372549019607843,
+            "min": 0.9215686274509804,
+            "max": 0.9738562091503269,
+            "n_pairs": 10
+          },
+          "spearman_rho": {
+            "mean": 0.987203302373581,
+            "min": 0.981424148606811,
+            "max": 0.9958720330237358,
+            "n_pairs": 10
+          },
+          "top5_overlap": {
+            "mean": 0.8800000000000001,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 10
+          }
+        },
+        "job_ml": {
+          "kendall_tau": {
+            "mean": 0.9424836601307192,
+            "min": 0.9215686274509804,
+            "max": 0.9738562091503269,
+            "n_pairs": 10
+          },
+          "spearman_rho": {
+            "mean": 0.9894736842105264,
+            "min": 0.9834881320949431,
+            "max": 0.9958720330237358,
+            "n_pairs": 10
+          },
+          "top5_overlap": {
+            "mean": 0.9199999999999999,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 10
+          }
+        },
+        "job_frontend": {
+          "kendall_tau": {
+            "mean": 0.9555555555555557,
+            "min": 0.9215686274509804,
+            "max": 0.9738562091503269,
+            "n_pairs": 10
+          },
+          "spearman_rho": {
+            "mean": 0.9923632610939114,
+            "min": 0.9834881320949431,
+            "max": 0.9958720330237358,
+            "n_pairs": 10
+          },
+          "top5_overlap": {
+            "mean": 0.8800000000000001,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 10
+          }
+        }
+      }
+    },
+    "B. Candidate order shuffled": {
+      "conditions": [
+        "base",
+        "shuffled"
+      ],
+      "note": "prompt A, temperature 0, candidate order reshuffled per replicate",
+      "pooled": {
+        "kendall_tau": {
+          "mean": 0.9121568627450981,
+          "min": 0.8692810457516341,
+          "max": 0.9738562091503269,
+          "n_pairs": 75
+        },
+        "spearman_rho": {
+          "mean": 0.9801582387340901,
+          "min": 0.9607843137254902,
+          "max": 0.9958720330237358,
+          "n_pairs": 75
+        },
+        "top5_overlap": {
+          "mean": 0.8880000000000001,
+          "min": 0.8,
+          "max": 1.0,
+          "n_pairs": 75
+        }
+      },
+      "per_job": {
+        "job_backend": {
+          "kendall_tau": {
+            "mean": 0.9048366013071896,
+            "min": 0.8692810457516341,
+            "max": 0.9477124183006538,
+            "n_pairs": 25
+          },
+          "spearman_rho": {
+            "mean": 0.9777915376676987,
+            "min": 0.9607843137254902,
+            "max": 0.9917440660474718,
+            "n_pairs": 25
+          },
+          "top5_overlap": {
+            "mean": 0.8960000000000001,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 25
+          }
+        },
+        "job_ml": {
+          "kendall_tau": {
+            "mean": 0.913202614379085,
+            "min": 0.8692810457516341,
+            "max": 0.9477124183006538,
+            "n_pairs": 25
+          },
+          "spearman_rho": {
+            "mean": 0.980515995872033,
+            "min": 0.9669762641898865,
+            "max": 0.9917440660474718,
+            "n_pairs": 25
+          },
+          "top5_overlap": {
+            "mean": 0.888,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 25
+          }
+        },
+        "job_frontend": {
+          "kendall_tau": {
+            "mean": 0.9184313725490197,
+            "min": 0.8692810457516341,
+            "max": 0.9738562091503269,
+            "n_pairs": 25
+          },
+          "spearman_rho": {
+            "mean": 0.9821671826625387,
+            "min": 0.9649122807017543,
+            "max": 0.9958720330237358,
+            "n_pairs": 25
+          },
+          "top5_overlap": {
+            "mean": 0.88,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 25
+          }
+        }
+      }
+    },
+    "C. Temperature 0.0 vs 0.7": {
+      "conditions": [
+        "base",
+        "temp07"
+      ],
+      "note": "prompt A, temperature 0.7, fixed candidate order",
+      "pooled": {
+        "kendall_tau": {
+          "mean": 0.9215686274509804,
+          "min": 0.8954248366013072,
+          "max": 0.9477124183006538,
+          "n_pairs": 75
+        },
+        "spearman_rho": {
+          "mean": 0.9837358101135192,
+          "min": 0.9711042311661506,
+          "max": 0.9917440660474718,
+          "n_pairs": 75
+        },
+        "top5_overlap": {
+          "mean": 0.912,
+          "min": 0.8,
+          "max": 1.0,
+          "n_pairs": 75
+        }
+      },
+      "per_job": {
+        "job_backend": {
+          "kendall_tau": {
+            "mean": 0.9194771241830066,
+            "min": 0.8954248366013072,
+            "max": 0.9477124183006538,
+            "n_pairs": 25
+          },
+          "spearman_rho": {
+            "mean": 0.9824148606811146,
+            "min": 0.9711042311661506,
+            "max": 0.9917440660474718,
+            "n_pairs": 25
+          },
+          "top5_overlap": {
+            "mean": 0.92,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 25
+          }
+        },
+        "job_ml": {
+          "kendall_tau": {
+            "mean": 0.9184313725490196,
+            "min": 0.8954248366013072,
+            "max": 0.9477124183006538,
+            "n_pairs": 25
+          },
+          "spearman_rho": {
+            "mean": 0.9832404540763673,
+            "min": 0.9752321981424149,
+            "max": 0.9917440660474718,
+            "n_pairs": 25
+          },
+          "top5_overlap": {
+            "mean": 0.9359999999999999,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 25
+          }
+        },
+        "job_frontend": {
+          "kendall_tau": {
+            "mean": 0.9267973856209152,
+            "min": 0.8954248366013072,
+            "max": 0.9477124183006538,
+            "n_pairs": 25
+          },
+          "spearman_rho": {
+            "mean": 0.9855521155830753,
+            "min": 0.9752321981424149,
+            "max": 0.9917440660474718,
+            "n_pairs": 25
+          },
+          "top5_overlap": {
+            "mean": 0.88,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 25
+          }
+        }
+      }
+    },
+    "D. Prompt variant A vs B": {
+      "conditions": [
+        "base",
+        "variant_b"
+      ],
+      "note": "prompt B (reworded, same task), temperature 0, fixed order",
+      "pooled": {
+        "kendall_tau": {
+          "mean": 0.9349891067538127,
+          "min": 0.9084967320261439,
+          "max": 0.9869281045751636,
+          "n_pairs": 75
+        },
+        "spearman_rho": {
+          "mean": 0.987093223254214,
+          "min": 0.9752321981424149,
+          "max": 0.9979360165118679,
+          "n_pairs": 75
+        },
+        "top5_overlap": {
+          "mean": 0.9146666666666666,
+          "min": 0.8,
+          "max": 1.0,
+          "n_pairs": 75
+        }
+      },
+      "per_job": {
+        "job_backend": {
+          "kendall_tau": {
+            "mean": 0.9304575163398694,
+            "min": 0.9084967320261439,
+            "max": 0.9607843137254903,
+            "n_pairs": 25
+          },
+          "spearman_rho": {
+            "mean": 0.9857997936016512,
+            "min": 0.9752321981424149,
+            "max": 0.9938080495356036,
+            "n_pairs": 25
+          },
+          "top5_overlap": {
+            "mean": 0.8960000000000001,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 25
+          }
+        },
+        "job_ml": {
+          "kendall_tau": {
+            "mean": 0.9419607843137255,
+            "min": 0.9084967320261439,
+            "max": 0.9869281045751636,
+            "n_pairs": 25
+          },
+          "spearman_rho": {
+            "mean": 0.9888544891640868,
+            "min": 0.981424148606811,
+            "max": 0.9979360165118679,
+            "n_pairs": 25
+          },
+          "top5_overlap": {
+            "mean": 0.96,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 25
+          }
+        },
+        "job_frontend": {
+          "kendall_tau": {
+            "mean": 0.9325490196078432,
+            "min": 0.9084967320261439,
+            "max": 0.9607843137254903,
+            "n_pairs": 25
+          },
+          "spearman_rho": {
+            "mean": 0.986625386996904,
+            "min": 0.9752321981424149,
+            "max": 0.9938080495356036,
+            "n_pairs": 25
+          },
+          "top5_overlap": {
+            "mean": 0.888,
+            "min": 0.8,
+            "max": 1.0,
+            "n_pairs": 25
+          }
+        }
+      }
+    }
+  },
+  "position_bias": {
+    "job_backend": {
+      "kendall_tau": -0.07450980392156863,
+      "kendall_p": 0.31881994172011197,
+      "spearman_rho": -0.11991744066047469,
+      "n_observations": 90
+    },
+    "job_ml": {
+      "kendall_tau": -0.156078431372549,
+      "kendall_p": 0.03677858666980242,
+      "spearman_rho": -0.2284829721362229,
+      "n_observations": 90
+    },
+    "job_frontend": {
+      "kendall_tau": 0.04496732026143791,
+      "kendall_p": 0.5474209015569893,
+      "spearman_rho": 0.05510835913312693,
+      "n_observations": 90
+    },
+    "pooled": {
+      "kendall_tau": -0.06788671023965141,
+      "kendall_p": 0.11383467911137204,
+      "spearman_rho": -0.09776401788785691,
+      "n_observations": 270
+    }
+  },
+  "rank_spread": {
+    "job_backend": {
+      "per_candidate": {
+        "cand_00": 2,
+        "cand_01": 1,
+        "cand_02": 1,
+        "cand_03": 1,
+        "cand_04": 0,
+        "cand_05": 1,
+        "cand_06": 2,
+        "cand_07": 2,
+        "cand_08": 0,
+        "cand_09": 2,
+        "cand_10": 0,
+        "cand_11": 0,
+        "cand_12": 0,
+        "cand_13": 1,
+        "cand_14": 0,
+        "cand_15": 1,
+        "cand_16": 3,
+        "cand_17": 1
+      },
+      "max_swing": 3,
+      "mean_swing": 1.0
+    },
+    "job_ml": {
+      "per_candidate": {
+        "cand_00": 1,
+        "cand_01": 2,
+        "cand_02": 1,
+        "cand_03": 1,
+        "cand_04": 2,
+        "cand_05": 2,
+        "cand_06": 1,
+        "cand_07": 1,
+        "cand_08": 1,
+        "cand_09": 0,
+        "cand_10": 1,
+        "cand_11": 1,
+        "cand_12": 2,
+        "cand_13": 2,
+        "cand_14": 1,
+        "cand_15": 1,
+        "cand_16": 0,
+        "cand_17": 0
+      },
+      "max_swing": 2,
+      "mean_swing": 1.1111111111111112
+    },
+    "job_frontend": {
+      "per_candidate": {
+        "cand_00": 0,
+        "cand_01": 2,
+        "cand_02": 1,
+        "cand_03": 0,
+        "cand_04": 1,
+        "cand_05": 1,
+        "cand_06": 0,
+        "cand_07": 0,
+        "cand_08": 1,
+        "cand_09": 1,
+        "cand_10": 1,
+        "cand_11": 2,
+        "cand_12": 1,
+        "cand_13": 1,
+        "cand_14": 0,
+        "cand_15": 1,
+        "cand_16": 0,
+        "cand_17": 1
+      },
+      "max_swing": 2,
+      "mean_swing": 0.7777777777777778
+    }
+  },
+  "cost": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  }
+}
